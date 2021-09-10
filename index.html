@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rijksmuseum API App</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <div class="container wrapper">
+      <h1>Art with <span>your searched animal</span></h1>
+
+      <form action="">
+        <!-- <label for="animal">Choose an animal: </label> -->
+
+        <select name="animal" id="animal">
+          <option value="none" selected disabled hidden> Choose an animal</option>
+          <option value="monkey">Monkeys</option>
+          <option value="eagle">Eagles</option>
+          <option value="elephant">Elephants</option>
+          <option value="dragon">Dragons</option>
+          <option value="fish">Fishes</option>
+          <option value="wolf">Wolfs</option>
+          <option value="dog">Dogs</option>
+        </select>
+      </form>
+    </div>
+
+    <main>
+        <div class="artwork wrapper" id="artwork">
+
+        </div>
+    </main>
+
+    <footer>
+        &copy; Shouvik Roy, 2021
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
